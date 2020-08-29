@@ -1,0 +1,34 @@
+[
+    {
+        "h5": "万能集市",
+        "img": {
+            "img": "../images/Details page2/ban9.webp",
+            "img_2": "../images/Details page2/ban9.webp",
+            "img_3": "../images/Details page2/ban10.webp"
+        }
+    },
+    {
+        "h5": "淘宝江湖",
+        "img": {
+            "img": "../images/Details page2/ban11.webp",
+            "img_2": "../images/Details page2/ban12.webp",
+            "img_3": "../images/Details page2/ban13.webp"
+        }
+    },
+    {
+        "h5": "万能集市",
+        "img": {
+            "img": "../images/Details page2/ban14.webp",
+            "img_2": "../images/Details page2/ban15.webp",
+            "img_3": "../images/Details page2/ban16.webp"
+        }
+    },
+    {
+        "h5": "万能集市",
+        "img": {
+            "img": "../images/Details page2/ban17.webp",
+            "img_2": "../images/Details page2/ban18.webp",
+            "img_3": "../images/Details page2/ban18.webp"
+        }
+    }
+]

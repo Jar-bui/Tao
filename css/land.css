@@ -1,0 +1,257 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+a {
+  text-decoration: none; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#land {
+  height: 45px;
+  margin: 22px 20px 22px;
+  /* background:blue; */ }
+
+#land span:nth-child(1) {
+  font-size: 50px;
+  color: #f40;
+  float: left; }
+
+#logo #sum {
+  color: red;
+  float: right;
+  margin-top: 14px;
+  font-size: 12px; }
+
+#logo #sum i {
+  color: red; }
+
+#logo em {
+  color: gray; }
+
+#Ban {
+  height: 600px;
+  background: url("../images/land/download-1.jpg") no-repeat -550px 0px;
+  position: relative; }
+
+#Ban #inp {
+  width: 350px;
+  height: 350px;
+  padding: 25px 25px 23px;
+  background: red;
+  position: absolute;
+  top: 120px;
+  /* left: 850px; */
+  right: 100px;
+  background: #eae6f2; }
+
+.icon-icon_qrcode {
+  /* background:red; */
+  color: red;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  font-size: 60px; }
+
+.icon-saomiaodenglu {
+  /* border:1px solid  */
+  /* border:white; */
+  color: #fefdee;
+  position: absolute;
+  top: 5px;
+  right: 67px;
+  font-size: 36px;
+  font-weight: 500;
+  /* width: 30px; */ }
+
+.icon-saomiaodenglu em {
+  font-size: 12px;
+  color: #ff8d0c;
+  position: absolute;
+  top: 12px;
+  left: 9px; }
+
+#xxxland {
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  top: 56px;
+  left: 42px;
+  /* float: left; */ }
+
+#xxxland p:nth-child(1) {
+  border-bottom: 2px solid black; }
+
+#xxxland p {
+  float: left;
+  margin: 0 5px;
+  height: 23px;
+  font-weight: 500; }
+
+#inp-1 {
+  width: 350px;
+  height: 40px;
+  /* background:red; */
+  position: absolute;
+  top: 106px;
+  left: 34px; }
+
+#inp-1 span,
+input,
+#inp-2 span,
+input {
+  float: left; }
+
+#inp-1 input,
+#inp-2 input {
+  width: 260px;
+  height: 38px;
+  border: 0;
+  padding-left: 11px; }
+
+#inp-1 span,
+#inp-2 span {
+  height: 38px;
+  border: 1px solid #f2eeee;
+  width: 40px;
+  background: #cccccc;
+  text-align: center;
+  line-height: 38px; }
+
+#inp-1 span i,
+#inp-2 span i {
+  color: white;
+  font-size: 20px; }
+
+#inp-2 {
+  width: 350px;
+  height: 40px;
+  /* background:red; */
+  position: absolute;
+  top: 162px;
+  left: 34px; }
+
+#inp-footer {
+  width: 350px;
+  height: 130px;
+  /* background: blue; */
+  position: absolute;
+  top: 228px;
+  left: 34px; }
+
+#inp-footer button {
+  width: 317px;
+  height: 40px;
+  background: red;
+  border: 0;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  font-size: 16px; }
+
+#ZFB {
+  width: 179px;
+  height: 25px;
+  /* padding-top: 3px; */
+  /* background: springgreen; */
+  text-align: center;
+  line-height: 25px;
+  position: absolute;
+  top: 55px; }
+
+#ZFB a {
+  font-size: 12px;
+  /* display: block; */
+  /* position: absolute; */
+  /* top: 2px; */
+  /* padding-top: 2px; */
+  margin-top: 2px;
+  color: #878689; }
+
+#ZFB span {
+  font-size: 16px;
+  /* margin-right: 2px; */
+  /* margin-top: 0px; */ }
+
+#ZFB span:nth-child(1) {
+  color: red; }
+
+#ZFB span:nth-child(2) {
+  color: #00a8f2; }
+
+#last-password {
+  width: 200px;
+  height: 20px;
+  /* background: gray; */
+  font-size: 12px;
+  position: absolute;
+  bottom: 15px;
+  right: 7px; }
+
+#last-password a {
+  color: #878689; }
+
+#page-bottom {
+  margin: 60px 0 0;
+  height: 200px;
+  /* background: red; */
+  position: relative;
+  margin: 60px auto 0;
+  padding: 7px 0 9px;
+  border-top: 1px solid #ddd;
+  width: 1200px;
+  font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5B8B\4F53,sans-serif; }
+
+#page-bottom a {
+  color: #6e6e6e; }
+
+#page-bottom b {
+  color: #e2e2e2; }
+
+#page-bottom span, i, em {
+  color: #a0a0a0; }
+
+button, input {
+  outline: none; }
